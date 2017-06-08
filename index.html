@@ -20,10 +20,10 @@
          "featureType": "all",
          "elementType": "labels.text.fill",
          "stylers": [{
-               "saturation": 36
+               "saturation": 100
             },
             {
-               "color": "#000000"
+               "color": "#FFFFFF"
             },
             {
                "lightness": 40
@@ -34,13 +34,13 @@
          "featureType": "all",
          "elementType": "labels.text.stroke",
          "stylers": [{
-               "visibility": "on"
+               "visibility": "off"
             },
             {
-               "color": "#000000"
+               "color": "#FFFFFF"
             },
             {
-               "lightness": 16
+               "lightness": 5
             }
          ]
       },
@@ -275,7 +275,12 @@
 
       });
 
-      map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+      map.setOptions({
+         draggable: false,
+         zoomControl: false,
+         scrollwheel: false,
+         disableDoubleClickZoom: true
+      });
 
    }
 </script>
